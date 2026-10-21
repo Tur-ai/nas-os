@@ -1,0 +1,6 @@
+[Unit]
+Description=NAS-OS backup harian
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/nas-backup

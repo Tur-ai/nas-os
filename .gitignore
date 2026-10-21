@@ -1,0 +1,6 @@
+*.iso
+*.img
+*.vdi
+*.vmdk
+cubic-project/
+*.log
