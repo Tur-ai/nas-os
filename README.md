@@ -29,6 +29,3 @@ Atau jalankan satu bagian saja, contoh: `sudo bash storage/setup-storage.sh`
 3. Skrip harus **non-interaktif** (`apt install -y`) dan **aman dijalankan berulang**.
 4. Jangan commit ISO/VM. Jangan commit password asli.
 5. Tiap folder wajib punya `README.md` (fungsi, cara jalan, cara tes + hasil uji).
-
-## Anggota tim
-Lihat `docs/pembagian-tugas.md`.
