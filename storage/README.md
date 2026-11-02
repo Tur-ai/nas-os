@@ -17,4 +17,11 @@ sudo bash storage/setup-storage.sh
 - Quota per user, LVM, atau RAID software (mdadm), NFS.
 
 ## Hasil uji
-(isi: skenario, hasil, tangkapan layar, kecepatan transfer)
+**Skenario 1: Konfigurasi User, Group, dan Direktori**
+- **Hasil:** Berhasil membuat group `nasusers` dan user `nasuser`.
+- **Permission:** Folder `public` diatur ke `2775`, folder `private` diatur ke `2770`.
+
+**Skenario 2: Pengujian Hak Akses Lokal**
+- **Hasil:** User `nasuser` berhasil membuat file `test.txt` di folder `public`. User `zaky` otomatis ditolak aksesnya saat mencoba membuka folder `private`.
+
+
